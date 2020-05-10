@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background: white;
+    padding: 40px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #f96502;
+    font-weight: 100;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 25px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: #fdebdb;
+    border: 2px solid #f96502;
+    color: #c75509;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f96502;
+    color: white;
+}
+
+body.result-page {
+    padding: 0px;
+}
+
+body div {
+    color: black;
+}
+
+#smalltext {
+    font-size: xx-small;
+    color: #333;
+}
+
+table {
+    border-left: 1px solid #777;
+    border-top: 1px solid #777;
+    border-spacing: 0px;
+}
+
+table tr th {
+    background-color: #ddd;
+    text-align: left;
+}
+
+table tr td,
+table tr th {
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 5px;
+}
+
+.result {
+    text-align: center;
+    padding: 20px;
+    font-size: 30pt;
+}
+
+.result.wrong {
+    background: red;
+    color: black;
+}
+
+.result.correct {
+    background: #090;
+    color: white;
+}
+
+
+.info, .query, .answer, .table-count {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.table, .table-count {
+    padding: 20px 0;
+}
+
+.table-count {
+    color: green;
+}
+
+.error {
+    color: #c50a0a;
+    font-weight: 700;
+}
+
+.query form,
+.answer form {
+    padding: 10px 0;
+}
+
+.query input[type="text"],
+.answer input[type="text"] {
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #f96502;
+    color: #573509;
+    min-width: 500px;
+}
+
+.result-info {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.result-info p {
+    margin: 2px 0;
+}
+
+.query + .answer {
+    padding-top: 20px;
+}
+
+.nav{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #c75509;
+    padding: 10px 20px;
+    display: block;
+}
+
+a:hover {
+    background-color: #f96502;
+    color: white;
+}
+
+li{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: #fdebdb;
+    border: 2px solid #f96502;
+    color: #c75509;
+    cursor: pointer;
+}
